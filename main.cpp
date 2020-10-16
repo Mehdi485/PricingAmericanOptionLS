@@ -32,7 +32,7 @@ int main()
 	cout << "le programme a mis " << " " << (((float)inter)/CLOCKS_PER_SEC) << " " << "pour creer la matrice des prix " << endl;
 	cout << "Le programme va maintenir calculer le prix de l'option américaine, cela peut prendre un peu de temps" << endl;	
 	
-	cout << "En attendant que le programme s'exécute vous pouvez jetez un coup d'oeil au rapport de ce projet" << endl; cout << endl;
+	cout << endl; cout << endl;
 	LSmethod LS(BASE,STRIKE,P);
 	Matrix EF(N,M );
 	EF.Mise_A_Zero();
