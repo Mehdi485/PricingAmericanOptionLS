@@ -5,7 +5,7 @@
 #include<ctime>
 #include<vector>
 
-using namespace std;
+using namespace std;	//a eviter
 
 class Matrix {
 	public:
